@@ -1,0 +1,31 @@
+.item-fans-img {
+    width: 100%;
+    height: 400px;
+    //object-fit: cover;
+}
+
+.item-fans-titre {
+    font-size: 2.1rem;
+}
+
+.item-fans-desc {
+    font-size: 1.2rem;
+
+}
+
+.item-fans-btn {
+    .btn-default {
+        background: #fff;
+        border: 1px solid #000;
+        color: #000;
+        border-radius: 4px;
+        padding: 10px 15px;
+        line-height: 10px;
+
+        &:hover {
+            background: #000;
+            border: 1px solid #000;
+            color: #fff;
+        }
+    }
+}
